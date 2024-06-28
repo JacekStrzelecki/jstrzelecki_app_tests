@@ -95,7 +95,7 @@ jobs:
         path: "jstrzelecki_tested_app"
     - name: Run Docker Compose
       run: |
-        cd awesome-localstack
+        cd jstrzelecki_tested_app
         chmod +x run-docker-compose-ci.sh
         ./run-docker-compose-ci.sh
 
