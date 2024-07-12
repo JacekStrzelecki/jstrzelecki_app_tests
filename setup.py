@@ -27,8 +27,9 @@ setup(
         'webdriver-manager==4.0.1',
         'wsproto==1.2.0',
         'pytest-xdist==3.6.1',
+        'setuptools==70.3.0',
         'Faker==25.1.0',
         'allure-pytest==2.13.5'
     ],
-    python_requires='>=3.12.1',
+    python_requires='>=3.12.0',
 )
