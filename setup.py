@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='python-e2e-localstack-tests',
+    name='jstrzelecki_app_tests',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
